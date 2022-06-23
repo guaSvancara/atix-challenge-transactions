@@ -1,0 +1,33 @@
+{
+  "name": "atix-challenge-transactions",
+  "version": "0.0.1",
+  "description": "Function for a bank to rebalance funds from closing to recipient accounts",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "app": "node src\\app.js",
+    "lint": "eslint src",
+    "lint-fix": "eslint src --fix",
+    "lint-tests": "eslint tests",
+    "lint-tests-fix": "eslint tests --fix",
+    "tests": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guaSvancara/atix-challenge-transactions.git"
+  },
+  "author": "Guadalupe Lucero Svancara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guaSvancara/atix-challenge-transactions/issues"
+  },
+  "homepage": "https://github.com/guaSvancara/atix-challenge-transactions#readme",
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.16"
+  }
+}
